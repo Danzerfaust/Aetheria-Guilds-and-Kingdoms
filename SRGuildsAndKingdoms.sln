@@ -1,7 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRGuildsAndKingdoms", "SRGuildsAndKingdoms\SRGuildsAndKingdoms.csproj", "{77E4D835-D8DD-42D5-BCB4-DA5E9389E641}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11612.150 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRGuildsAndKingdoms", "SRGuildsAndKingdoms\SRGuildsAndKingdoms\SRGuildsAndKingdoms.csproj", "{740B2D5F-2A51-4AC6-8590-8F0D21D22E23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "SRGuildsAndKingdoms\ZZCakeBuild\CakeBuild.csproj", "{890EC6B9-DC67-4B0A-9F36-0727FF5F2AB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRGuildsAndKingdomsPVP", "SRGuildsAndKingdomsPVP\SRGuildsAndKingdomsPVP.csproj", "{51D2DEF1-89BC-AD33-A9E3-076F04D24175}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77E4D835-D8DD-42D5-BCB4-DA5E9389E641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77E4D835-D8DD-42D5-BCB4-DA5E9389E641}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77E4D835-D8DD-42D5-BCB4-DA5E9389E641}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77E4D835-D8DD-42D5-BCB4-DA5E9389E641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740B2D5F-2A51-4AC6-8590-8F0D21D22E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740B2D5F-2A51-4AC6-8590-8F0D21D22E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740B2D5F-2A51-4AC6-8590-8F0D21D22E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740B2D5F-2A51-4AC6-8590-8F0D21D22E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890EC6B9-DC67-4B0A-9F36-0727FF5F2AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890EC6B9-DC67-4B0A-9F36-0727FF5F2AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890EC6B9-DC67-4B0A-9F36-0727FF5F2AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890EC6B9-DC67-4B0A-9F36-0727FF5F2AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D2DEF1-89BC-AD33-A9E3-076F04D24175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D2DEF1-89BC-AD33-A9E3-076F04D24175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D2DEF1-89BC-AD33-A9E3-076F04D24175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D2DEF1-89BC-AD33-A9E3-076F04D24175}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52382771-C9EA-44D0-BB48-1D7DBB0B9912}
 	EndGlobalSection
 EndGlobal

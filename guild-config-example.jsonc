@@ -1,0 +1,114 @@
+{
+  // ===== BASIC GUILD SETTINGS =====
+  "baseMaxClaimsPerGuild": 20,
+  "enableDynamicClaimLimits": true,
+  "absoluteMaxClaimsPerGuild": 100,
+  
+  "baseMaxOutpostsPerGuild": 0,
+  "enableDynamicOutpostLimits": true,
+  "absoluteMaxOutpostsPerGuild": 25,
+
+  // ===== TERRITORIAL RESTRICTIONS =====
+  // Defines a WHITELIST area where claims ARE allowed
+  // Set enableTerritorialRestrictions to true to activate
+  "enableTerritorialRestrictions": false,
+  "territorialCenter": null,
+  "territorialRadius": 1000,
+
+  // Example: Restrict claiming to within 5000 blocks of spawn
+  // "enableTerritorialRestrictions": true,
+  // "territorialCenter": {
+  //   "x": 0,
+  //   "z": 0
+  // },
+  // "territorialRadius": 5000,
+
+  // ===== PROTECTED ZONES =====
+  // Defines BLACKLIST areas where claims are NOT allowed
+  // AND blocks cannot be broken (but can be interacted with)
+  // Set enableProtectedZones to true to activate
+  "enableProtectedZones": true,
+  "protectedZones": [
+    {
+      "name": "Spawn Protection",
+      "x": 0,
+      "z": 0,
+      "radius": 250
+    },
+    {
+      "name": "Central Market",
+      "x": 500,
+      "z": 500,
+      "radius": 100
+    },
+    {
+      "name": "North Trading Post",
+      "x": 0,
+      "z": -1000,
+      "radius": 75
+    },
+    {
+      "name": "Community Farm",
+      "x": -600,
+      "z": 300,
+      "radius": 150
+    },
+    {
+      "name": "Arena",
+      "x": 1000,
+      "z": -500,
+      "radius": 200
+    }
+  ],
+
+  // ===== EXAMPLES OF PROTECTED ZONES =====
+  
+  // Small protection (50-100 blocks radius):
+  // - Individual buildings
+  // - Small monuments
+  // - Quest locations
+  
+  // Medium protection (100-200 blocks radius):
+  // - Markets
+  // - Community areas
+  // - Town centers
+  // - Arenas
+  
+  // Large protection (200-300 blocks radius):
+  // - Spawn areas
+  // - Major hubs
+  // - Capital cities
+  
+  // ===== HOW TO FIND COORDINATES =====
+  // 1. Stand at the center of where you want the zone
+  // 2. Press F3 or use /tp [show] command
+  // 3. Use the X and Z values (ignore Y)
+  // 4. Add to the config file
+  // 5. Restart the server
+  
+  // ===== COMBINING FEATURES =====
+  // You can use both territorial restrictions AND protected zones:
+  // - Territorial restrictions define the overall allowed area (whitelist)
+  // - Protected zones define forbidden spots within that area (blacklist)
+  
+  // Example scenario:
+  // - Territorial restriction: 10000 block radius from spawn (limits total claim area)
+  // - Protected zones: Spawn, markets, arenas within that area (prevents claims there)
+  
+  // ===== PLAYER COUNT THRESHOLDS =====
+  "playerCountThresholds": [
+    { "minPlayerCount": 5, "additionalClaims": 10 },
+    { "minPlayerCount": 10, "additionalClaims": 10 },
+    { "minPlayerCount": 15, "additionalClaims": 10 },
+    { "minPlayerCount": 20, "additionalClaims": 10 },
+    { "minPlayerCount": 25, "additionalClaims": 10 }
+  ],
+  
+  "outpostPlayerCountThresholds": [
+    { "minPlayerCount": 5, "additionalClaims": 0 },
+    { "minPlayerCount": 10, "additionalClaims": 0 },
+    { "minPlayerCount": 15, "additionalClaims": 0 },
+    { "minPlayerCount": 20, "additionalClaims": 1 },
+    { "minPlayerCount": 25, "additionalClaims": 1 }
+  ]
+}

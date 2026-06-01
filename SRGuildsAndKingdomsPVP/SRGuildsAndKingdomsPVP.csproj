@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Mod Info -->
+  <PropertyGroup>
+    <ModId>srguildsandkingdomspvp</ModId>
+    <GameVersion>1.19.0</GameVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin\$(Configuration)\Mods\$(ModId)</OutputPath>
+    <ModsDir>$(ProjectDir)bin\$(Configuration)\Mods</ModsDir>
+  </PropertyGroup>
+
+  <!-- Reference Vintage Story -->
+  <ItemGroup>
+    <Reference Include="VintagestoryAPI">
+      <HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VintagestoryLib">
+      <HintPath>$(VINTAGE_STORY)/VintagestoryLib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(VINTAGE_STORY)/Lib/Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>$(VINTAGE_STORY)/Lib/protobuf-net.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Reference SR Guilds & Kingdoms mod -->
+  <ItemGroup>
+    <ProjectReference Include="..\SRGuildsAndKingdoms\SRGuildsAndKingdoms\SRGuildsAndKingdoms.csproj">
+      <Private>false</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+  <!-- Copy assets to output -->
+  <ItemGroup>
+    <None Include="assets/**/*" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="modinfo.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <!-- Import custom build targets (won't be affected by branch changes if in .gitignore) -->
+  <Import Project="$(MSBuildProjectDirectory)\SRGuildsAndKingdomsPVP.targets" Condition="Exists('$(MSBuildProjectDirectory)\SRGuildsAndKingdomsPVP.targets')" />
+
+</Project>

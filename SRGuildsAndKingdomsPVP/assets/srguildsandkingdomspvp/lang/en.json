@@ -1,0 +1,9 @@
+{
+  "pvp-enabled": "PVP enabled! You can now attack and be attacked by other PVP players.",
+  "pvp-disabled": "PVP disabled. You are now safe from PVP combat.",
+  "pvp-cooldown": "You must wait {0} more second(s) before toggling PVP again.",
+  "pvp-status-enabled": "Your PVP is currently: ENABLED",
+  "pvp-status-disabled": "Your PVP is currently: DISABLED",
+  "pvp-cannot-attack": "You cannot attack {0} - they do not have PVP enabled.",
+  "pvp-cannot-be-attacked": "{0} cannot attack you - you do not have PVP enabled."
+}
