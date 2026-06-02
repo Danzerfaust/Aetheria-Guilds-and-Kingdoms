@@ -109,13 +109,13 @@ namespace SRGuildsAndKingdoms.src.config
         /// </summary>
         public Dictionary<string, int> MemberRankThresholds { get; set; } = new()
         {
-            { "Jr Shadow Knight 3rd Class", 150 },
-            { "Jr Shadow Knight 2nd Class", 200 },
-            { "Jr Shadow Knight 1st Class", 250 },
-            { "Sr Shadow Knight 3rd Class", 300 },
-            { "Sr Shadow Knight 2nd Class", 400 },
-            { "Sr Shadow Knight 1st Class", 450 },
-            { "Grand Shadow Knight", 500 }
+            { "Jr Aetherian Knight 3rd Class", 150 },
+            { "Jr Aetherian Knight 2nd Class", 200 },
+            { "Jr Aetherian Knight 1st Class", 250 },
+            { "Sr Aetherian Knight 3rd Class", 300 },
+            { "Sr Aetherian Knight 2nd Class", 400 },
+            { "Sr Aetherian Knight 1st Class", 450 },
+            { "Grand Aetherian Knight", 500 }
         };
 
         /// <summary>
@@ -168,7 +168,7 @@ namespace SRGuildsAndKingdoms.src.config
         /// Gets the member rank based on points contribution
         /// </summary>
         /// <param name="pointsContribution">The member's current points_contribution</param>
-        /// <returns>The member rank (e.g., "Grand Shadow Knight", "Jr Shadow Knight 3rd Class", or "Guild Member")</returns>
+        /// <returns>The member rank (e.g., "Grand Aetherian Knight", "Jr Aetherian Knight 3rd Class", or "Guild Member")</returns>
         public string GetMemberRank(int pointsContribution)
         {
             string rank = "Guild Member"; // Default rank for members below all thresholds

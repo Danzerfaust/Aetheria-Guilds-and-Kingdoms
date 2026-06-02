@@ -44,7 +44,7 @@ namespace SRGuildsAndKingdoms.src.gui.components
                     visualStack.Attributes = new Vintagestory.API.Datastructures.TreeAttribute();
                     visualStack.Attributes.SetString("title", $"GRS Points");
                     visualStack.Attributes.SetString("text", "");
-                    visualStack.Attributes.SetString("signedby", $"The Shadow Realm");
+                    visualStack.Attributes.SetString("signedby", $"The Shores of Aetheria");
                     visualStack.Attributes.SetString("_originalCode", GRS_POINTS_CODE);
 
                     this.Itemstack = visualStack;

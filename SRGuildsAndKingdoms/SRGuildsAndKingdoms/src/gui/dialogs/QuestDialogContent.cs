@@ -769,7 +769,7 @@ namespace SRGuildsAndKingdoms.src.gui.dialogs
                     parchmentStack.Attributes = new Vintagestory.API.Datastructures.TreeAttribute();
                     parchmentStack.Attributes.SetString("title", $"GRS Points");
                     parchmentStack.Attributes.SetString("text", "");
-                    parchmentStack.Attributes.SetString("signedby", $"The Shadow Realm");
+                    parchmentStack.Attributes.SetString("signedby", $"The Shores of Aetheria");
 
                     return parchmentStack;
                 }

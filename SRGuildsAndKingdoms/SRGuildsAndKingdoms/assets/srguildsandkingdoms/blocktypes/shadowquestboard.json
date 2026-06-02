@@ -1,5 +1,5 @@
 {
-    "code": "shadowquestboard",
+    "code": "aetherianquestboard",
     "class": "QuestBoardBlock",
     "creativeinventory": {
         "general": [ "*-ground-north" ]
@@ -208,19 +208,19 @@
     },
     "shapebytype": {
         "*-north": {
-            "base": "block/shadowquestboard-{construction}",
+            "base": "block/aetherianquestboard-{construction}",
             "rotateY": 0
         },
         "*-east": {
-            "base": "block/shadowquestboard-{construction}",
+            "base": "block/aetherianquestboard-{construction}",
             "rotateY": 270
         },
         "*-south": {
-            "base": "block/shadowquestboard-{construction}",
+            "base": "block/aetherianquestboard-{construction}",
             "rotateY": 180
         },
         "*-west": {
-            "base": "block/shadowquestboard-{construction}",
+            "base": "block/aetherianquestboard-{construction}",
             "rotateY": 90
         }
     },
