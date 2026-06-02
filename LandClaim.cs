@@ -1,7 +1,7 @@
-SRGuildsAndKingdoms\SRGuildsAndKingdoms\src\guilds\LandClaim.cs
+SOAGuildsAndKingdoms\SOAGuildsAndKingdoms\src\guilds\LandClaim.cs
 using System;
 
-namespace SRGuildsAndKingdoms.src.guilds
+namespace SOAGuildsAndKingdoms.src.guilds
 {
     /// <summary>
     /// Simple rectangular land claim centered on (CenterX, CenterZ) with a radius (in blocks).

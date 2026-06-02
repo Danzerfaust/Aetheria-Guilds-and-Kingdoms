@@ -1,0 +1,372 @@
+{
+    "code": "aetherianquestboard",
+    "class": "QuestBoardBlock",
+    "creativeinventory": {
+        "general": [ "*-ground-north" ]
+    },
+    "variantGroups": [
+        {
+            "code": "questType",
+            "states": [ "daily-weekly", "monthly-seasonal" ]
+        },
+        {
+            "code": "construction",
+            "states": [ "ground", "wall" ]
+        },
+        {
+            "code": "side",
+            "loadFromProperties": "abstract/horizontalorientation"
+        }
+    ],
+    "behaviorsByType": {
+        "*-wall-*": [
+            { "name": "HorizontalAttachable" },
+            {
+                "name": "Multiblock",
+                "propertiesByType": {
+                    "*-north": {
+                        "sizex": 5,
+                        "sizey": 4,
+                        "sizez": 1,
+                        "cposition": {
+                            "x": 2,
+                            "y": 2,
+                            "z": 0
+                        }
+                    },
+                    "*-east": {
+                        "sizex": 1,
+                        "sizey": 4,
+                        "sizez": 5,
+                        "cposition": {
+                            "x": 0,
+                            "y": 2,
+                            "z": 2
+                        }
+                    },
+                    "*-south": {
+                        "sizex": 5,
+                        "sizey": 4,
+                        "sizez": 1,
+                        "cposition": {
+                            "x": 2,
+                            "y": 2,
+                            "z": 0
+                        }
+                    },
+                    "*-west": {
+                        "sizex": 1,
+                        "sizey": 4,
+                        "sizez": 5,
+                        "cposition": {
+                            "x": 0,
+                            "y": 2,
+                            "z": 2
+                        }
+                    }
+                }
+            }
+        ],
+        "*-ground-*": [
+            {
+                "name": "Multiblock",
+                "propertiesByType": {
+                    "*-north": {
+                        "sizex": 5,
+                        "sizey": 4,
+                        "sizez": 1,
+                        "cposition": {
+                            "x": 2,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    "*-east": {
+                        "sizex": 1,
+                        "sizey": 4,
+                        "sizez": 5,
+                        "cposition": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 2
+                        }
+                    },
+                    "*-south": {
+                        "sizex": 5,
+                        "sizey": 4,
+                        "sizez": 1,
+                        "cposition": {
+                            "x": 2,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    "*-west": {
+                        "sizex": 1,
+                        "sizey": 4,
+                        "sizez": 5,
+                        "cposition": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 2
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "collisionBoxByType": {
+        "*-north": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "z1": 0.3,
+            "x2": 0.0,
+            "y2": 0.0,
+            "z2": -0.7
+        },
+        "*-east": {
+            "x1": 1.3,
+            "y1": 0.0,
+            "z1": 0.0,
+            "x2": 0.7,
+            "y2": 1.0,
+            "z2": 1.0
+        },
+        "*-south": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "z1": 1.3,
+            "x2": 1.0,
+            "y2": 1.0,
+            "z2": 0.7
+        },
+        "*-west": {
+            "x1": 0.3,
+            "y1": 0.0,
+            "z1": 0.0,
+            "x2": -0.7,
+            "y2": 1.0,
+            "z2": 1.0
+        }
+    },
+    "selectionBoxByType": {
+        "*-wall-north": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "z1": 0.3,
+            "x2": 1.0,
+            "y2": 1.0,
+            "z2": -0.7
+        },
+        "*-east": {
+            "x1": 1.3,
+            "y1": 0.0,
+            "z1": 0.0,
+            "x2": 0.7,
+            "y2": 1.0,
+            "z2": 1.0
+        },
+        "*-south": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "z1": 1.3,
+            "x2": 1.0,
+            "y2": 1.0,
+            "z2": 0.7
+        },
+        "*-west": {
+            "x1": 0.3,
+            "y1": 0.0,
+            "z1": 0.0,
+            "x2": -0.7,
+            "y2": 1.0,
+            "z2": 1.0
+        }
+    },
+    "maxstacksize": 1,
+    "drawtype": "json",
+    "blockmaterial": "Wood",
+    "replaceable": 600,
+    "resistance": 3,
+    "snowcoverage": true,
+    "sideopaque": {
+        "all": false
+    },
+    "sideao": {
+        "all": true
+    },
+    "emitsideao": {
+        "all": false
+    },
+    "sidesolid": {
+        "all": false
+    },
+    "heldTpIdleAnimation": "holdbothhands",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "sounds": {
+        "walk": "game:player/buildhigh"
+    },
+    "shapebytype": {
+        "*-north": {
+            "base": "block/aetherianquestboard-{construction}",
+            "rotateY": 0
+        },
+        "*-east": {
+            "base": "block/aetherianquestboard-{construction}",
+            "rotateY": 270
+        },
+        "*-south": {
+            "base": "block/aetherianquestboard-{construction}",
+            "rotateY": 180
+        },
+        "*-west": {
+            "base": "block/aetherianquestboard-{construction}",
+            "rotateY": 90
+        }
+    },
+    "textures": {
+        "ladder": {
+            "base": "block/ladder"
+        },
+        "iron": {
+            "base": "block/iron"
+        },
+        "wheels": {
+            "base": "block/wheels"
+        },
+        "iron_l256": {
+            "base": "block/iron_l256"
+        },
+        "iron_l304": {
+            "base": "block/iron_l304"
+        },
+        "rockrim_l304": {
+            "base": "block/rockrim_l304"
+        },
+        "rockpillar_l64_h304": {
+            "base": "block/rockpillar_l64_h304"
+        },
+        "rockrim_h304": {
+            "base": "block/rockrim_h304"
+        },
+        "steel": {
+            "base": "block/steel"
+        },
+        "rockrimrunes_l304": {
+            "base": "block/rockrimrunes_l304"
+        },
+        "board_l304_h224": {
+            "base": "block/board_l304_h224"
+        },
+        "rockpillar_l304_h304": {
+            "base": "block/rockpillar_l304_h304"
+        },
+        "rockrim_light_h304": {
+            "base": "block/rockrim_light_h304"
+        },
+        "rockrim_light_l304": {
+            "base": "block/rockrim_light_l304"
+        },
+        "ebony-h": {
+            "base": "block/ebony-h"
+        },
+        "paperlabelsample": {
+            "base": "block/notice/paperlabelsample"
+        },
+        "paperlabel1": {
+            "base": "block/notice/paperlabel1"
+        },
+        "paperlabel2": {
+            "base": "block/notice/paperlabel2"
+        },
+        "paperlabel3": {
+            "base": "block/notice/paperlabel3"
+        },
+        "paperlabel4": {
+            "base": "block/notice/paperlabel4"
+        },
+        "paperlabel5": {
+            "base": "block/notice/paperlabel5"
+        },
+        "paperlabel6": {
+            "base": "block/notice/paperlabel6"
+        },
+        "paperscroll1": {
+            "base": "block/scroll/paperscroll1"
+        },
+        "copper": {
+            "base": "block/clutter/copper"
+        },
+        "stonetablet0": {
+            "base": "block/stonetablet/stonetablet0"
+        },
+        "stonetablet1": {
+            "base": "block/stonetablet/stonetablet1"
+        },
+        "stonetablet2": {
+            "base": "block/stonetablet/stonetablet2"
+        },
+        "stonetablet3": {
+            "base": "block/stonetablet/stonetablet3"
+        },
+        "Vines1": {
+            "base": "block/vines/Vines1"
+        },
+        "moss1": {
+            "base": "block/vines/moss1"
+        },
+        "feather": {
+            "base": "block/clutter/feather"
+        },
+        "bituminous": {
+            "base": "block/clutter/bituminous"
+        },
+        "quartz": {
+            "base": "block/clutter/quartz"
+        },
+        "brass": {
+            "base": "block/clutter/silver"
+        }
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": -2,
+            "z": -1
+        },
+        "rotation": {
+            "x": 132,
+            "y": -5,
+            "z": -73
+        },
+        "scale": 0.48
+    },
+    "guiTransformbytype": {
+        "*ground*": {
+            "translation": {
+                "x": 1,
+                "y": 10.5,
+                "z": 0
+            },
+            "rotation": {
+                "x": -29,
+                "y": 146,
+                "z": 0
+            },
+            "scale": 0.35
+        },
+        "*wall*": {
+            "translation": {
+                "x": 1,
+                "y": -2.5,
+                "z": 0
+            },
+            "rotation": {
+                "x": -29,
+                "y": 146,
+                "z": 0
+            },
+            "scale": 0.35
+        }
+    }
+}

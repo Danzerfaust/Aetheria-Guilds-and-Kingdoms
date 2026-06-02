@@ -5,7 +5,7 @@ Successfully integrated Node Wars functionality into the Guild UI, removing chat
 
 ## Changes Made
 
-### 1. **Removed Player Commands** (`SRGuildsAndKingdomsPVP/src/nodewars/NodeWarCommands.cs`)
+### 1. **Removed Player Commands** (`SOAGuildsAndKingdomsPVP/src/nodewars/NodeWarCommands.cs`)
 - Removed all player-facing `/nodewar` commands:
   - `/nodewar signup <nodeId>` - Sign up for a war
   - `/nodewar cancel <nodeId>` - Cancel signup
@@ -24,7 +24,7 @@ Successfully integrated Node Wars functionality into the Guild UI, removing chat
   - `/nodewaradmin cancel <nodeId>` - Cancel a scheduled war
   - `/nodewaradmin signups <nodeId>` - View signups for a war
 
-### 2. **Added Node Wars Tab to Guild Menu** (`SRGuildsAndKingdoms/src/gui/DialogGuildMain.cs`)
+### 2. **Added Node Wars Tab to Guild Menu** (`SOAGuildsAndKingdoms/src/gui/DialogGuildMain.cs`)
 - Added `TAB_NODEWARS` constant (index 4)
 - Renumbered existing tabs:
   - Overview: 0
@@ -39,7 +39,7 @@ Successfully integrated Node Wars functionality into the Guild UI, removing chat
 - Added tab button "Node Wars" in the UI
 - Implemented tab content rendering
 
-### 3. **Implemented Node Wars Action Handlers** (`SRGuildsAndKingdoms/src/gui/DialogGuildMain.cs`)
+### 3. **Implemented Node Wars Action Handlers** (`SOAGuildsAndKingdoms/src/gui/DialogGuildMain.cs`)
 Added new action methods:
 - `OnNodeWarSignup()` - Handle war signup (placeholder for network integration)
 - `OnNodeWarCancelSignup()` - Handle canceling signup
@@ -49,12 +49,12 @@ Added new action methods:
 Added helper method:
 - `RefreshNodeWarsData()` - Refresh Node Wars data from PVP mod (placeholder)
 
-### 4. **Added Helper Methods to GuildNodeWarsTab** (`SRGuildsAndKingdoms/src/gui/tabs/GuildNodeWarsTab.cs`)
+### 4. **Added Helper Methods to GuildNodeWarsTab** (`SOAGuildsAndKingdoms/src/gui/tabs/GuildNodeWarsTab.cs`)
 - `GetSelectedWarForSignup()` - Get the selected war ID
 - `GetCurrentSignup()` - Get current signup information
 - `GetCurrentWar()` - Get current war information
 
-### 5. **Created Data Provider** (`SRGuildsAndKingdomsPVP/src/nodewars/NodeWarDataProvider.cs`)
+### 5. **Created Data Provider** (`SOAGuildsAndKingdomsPVP/src/nodewars/NodeWarDataProvider.cs`)
 New class that bridges PVP mod data to Guild UI:
 - `GetNodeWarDataForGuild(string guildName)` - Retrieves all node war data for a guild
   - Controlled nodes
@@ -72,12 +72,12 @@ Includes Data Transfer Objects (DTOs):
 - `AvailableWarInfo` - Wars available for signup
 - `CurrentSignupInfo` - Current signup status
 
-### 6. **Updated PVP Manager** (`SRGuildsAndKingdomsPVP/src/pvp/PVPManager.cs`)
+### 6. **Updated PVP Manager** (`SOAGuildsAndKingdomsPVP/src/pvp/PVPManager.cs`)
 - Added `NodeWarManager` property
 - Initialized `NodeWarManager` in constructor
-- Added using directive for `SRGuildsAndKingdomsPVP.src.nodewars`
+- Added using directive for `SOAGuildsAndKingdomsPVP.src.nodewars`
 
-### 7. **Exposed Node War Data in PVP Mod System** (`SRGuildsAndKingdomsPVP/PVPModSystem.cs`)
+### 7. **Exposed Node War Data in PVP Mod System** (`SOAGuildsAndKingdomsPVP/PVPModSystem.cs`)
 Added public accessor:
 - `GetNodeWarDataForGuild(string guildName)` - Allows Guild mod to retrieve node war data
 - `GetPVPManager()` - Provides access to PVP manager

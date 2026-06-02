@@ -47,7 +47,7 @@ This method:
 - Converts DTO data to cached tuple format
 - Logs the update for debugging
 
-### 4. SRGuildsAndKingdomsModSystem.cs
+### 4. SOAGuildsAndKingdomsModSystem.cs
 **Server-side changes**:
 - Updated `OnSaveGameLoaded()` to call `BroadcastGuildConfigToAll()` on server start
 
@@ -161,7 +161,7 @@ Potential improvements:
 - `GuildPackets.cs` - Network packet definitions
 - `GuildNetworkHandler.cs` - Network communication
 - `PlotMapLayer.cs` - Client-side map rendering
-- `SRGuildsAndKingdomsModSystem.cs` - Mod initialization
+- `SOAGuildsAndKingdomsModSystem.cs` - Mod initialization
 - `GuildConfig.cs` - Server-side config logic
 
 ## Documentation

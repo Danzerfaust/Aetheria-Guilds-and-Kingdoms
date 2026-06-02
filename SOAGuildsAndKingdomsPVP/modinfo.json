@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "soaguildsandkingdomspvp",
+  "name": "SR Guilds & Kingdoms - PVP",
+  "author": "ShakeySnake",
+  "description": "Opt-in guild-based PVP system. Requires SR Guilds & Kingdoms mod. Players must join a guild AND enable PVP to participate in combat. Players in the same guild are protected from friendly fire.",
+  "version": "0.1.0",
+  "dependencies": {
+    "game": "1.19.0",
+    "soaguildsandkingdoms": "2.0.7"
+  },
+  "side": "universal"
+}

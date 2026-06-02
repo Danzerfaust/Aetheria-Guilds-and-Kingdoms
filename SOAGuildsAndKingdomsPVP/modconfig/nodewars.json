@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "minGuildMembersOnlineToJoin": 3,
+  "minGuildMembersTotal": 3,
+  "minPlayersToCapture": 3,
+  "capturePointsNeeded": 1000.0,
+  "pointsPerSecondBase": 1.0,
+  "pointsPerKill": 50.0,
+  "pointsPerDeath": -10.0,
+  "allowContesting": true,
+  "contestedMultiplier": 0.5,
+  "extraPlayerBonus": 0.1,
+  "maxConcurrentWars": 3,
+  "maxGuildsPerWar": 0,
+  "nodeWarDuration": 3600,
+  "cooldownBetweenWars": 86400,
+  "preparationPhaseSeconds": 300,
+  "signupPeriodBeforeWar": 7200,
+  "rewardInfluencePerNode": 100,
+  "enableOvertime": true,
+  "overtimeControlSeconds": 60,
+  "requireGuildLeaderToSignup": true
+}

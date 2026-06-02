@@ -3,7 +3,7 @@
 ## Quick Setup (3 Steps)
 
 1. **Edit Config File**
-   - Location: `[server]/ModData/SRGuildsAndKingdoms/guild-config.json`
+   - Location: `[server]/ModData/SOAGuildsAndKingdoms/guild-config.json`
    - Set `enableProtectedZones`: `true`
    - Add zones to `protectedZones` array
 
@@ -208,7 +208,7 @@ For issues or questions:
 
 ## Version Compatibility
 
-- Requires: SRGuilds & Kingdoms v1.0+
+- Requires: SOAGuilds & Kingdoms v1.0+
 - Minecraft: 1.19+
 - Vintage Story: 1.19+
 

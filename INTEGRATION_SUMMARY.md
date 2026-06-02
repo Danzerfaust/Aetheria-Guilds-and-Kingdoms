@@ -1,12 +1,12 @@
 # Protected Zones Integration - Complete Summary
 
 ## Overview
-The protected zones feature has been fully integrated into the SRGuilds & Kingdoms mod. This feature allows server administrators to define multiple protected areas where land cannot be claimed and blocks cannot be broken, while still allowing block interactions.
+The protected zones feature has been fully integrated into the SOAGuilds & Kingdoms mod. This feature allows server administrators to define multiple protected areas where land cannot be claimed and blocks cannot be broken, while still allowing block interactions.
 
 ## Files Modified
 
 ### 1. GuildConfig.cs
-**Location**: `SRGuildsAndKingdoms\SRGuildsAndKingdoms\src\config\GuildConfig.cs`
+**Location**: `SOAGuildsAndKingdoms\SOAGuildsAndKingdoms\src\config\GuildConfig.cs`
 
 **Changes Made**:
 - Added `EnableProtectedZones` property (boolean)
@@ -23,7 +23,7 @@ The protected zones feature has been fully integrated into the SRGuilds & Kingdo
 - Updated `GetConfigStatus()` to display protected zones information
 
 ### 2. GuildManager.cs  
-**Location**: `SRGuildsAndKingdoms\SRGuildsAndKingdoms\src\guilds\GuildManager.cs`
+**Location**: `SOAGuildsAndKingdoms\SOAGuildsAndKingdoms\src\guilds\GuildManager.cs`
 
 **Changes Made**:
 - Integrated protected zones check into `ClaimLand()` method (line ~518)
@@ -33,8 +33,8 @@ The protected zones feature has been fully integrated into the SRGuilds & Kingdo
   - Validates all 4 chunks of the 2x2 guild home area
   - Prevents overlapping with protected zones
 
-### 3. SRGuildsAndKingdomsModSystem.cs
-**Location**: `SRGuildsAndKingdoms\SRGuildsAndKingdoms\SRGuildsAndKingdomsModSystem.cs`
+### 3. SOAGuildsAndKingdomsModSystem.cs
+**Location**: `SOAGuildsAndKingdoms\SOAGuildsAndKingdoms\SOAGuildsAndKingdomsModSystem.cs`
 
 **Changes Made**:
 - Updated `OnCanPlaceOrBreakBlock()` event handler (line ~157)
@@ -44,7 +44,7 @@ The protected zones feature has been fully integrated into the SRGuilds & Kingdo
   - Sets claimant to zone name for proper UI feedback
 
 ### 4. PlotMapLayer.cs
-**Location**: `SRGuildsAndKingdoms\SRGuildsAndKingdoms\src\gui\PlotMapLayer.cs`
+**Location**: `SOAGuildsAndKingdoms\SOAGuildsAndKingdoms\src\gui\PlotMapLayer.cs`
 
 **Changes Made**:
 - Added protected zones cache properties:

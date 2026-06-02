@@ -1,0 +1,16 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "side": "Universal",
+    "requiredOnClient": true,
+    "requiredOnServer": true,
+    "modid": "soaguildsandkingdoms",
+    "name": "SOAGuildsAndKingdoms",
+    "authors": [ "ShakeySnake", "Roscati", "snoopyfan13", "Danzerfaust" ],
+    "description": "A Guild and Kingdoms mod for Vintage Story",
+    "version": "2.0.15",
+    "dependencies": {
+        "game": "1.21.0",
+        "portcullis": ""
+    }
+}

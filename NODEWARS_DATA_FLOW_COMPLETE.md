@@ -41,7 +41,7 @@ This document describes the complete network communication flow for displaying N
 
 ## Key Components
 
-### Guild Mod (SRGuildsAndKingdoms)
+### Guild Mod (SOAGuildsAndKingdoms)
 
 #### Network Packets (GuildPackets.cs)
 ```csharp
@@ -77,7 +77,7 @@ This document describes the complete network communication flow for displaying N
   - Displays controlled nodes, active wars, available wars
   - Shows signup status and action buttons
 
-### PVP Mod (SRGuildsAndKingdomsPVP)
+### PVP Mod (SOAGuildsAndKingdomsPVP)
 
 #### Data Provider (NodeWarDataProvider.cs)
 ```csharp
