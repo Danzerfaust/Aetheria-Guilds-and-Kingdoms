@@ -10,7 +10,7 @@
     "description": "A Guild and Kingdoms mod for Vintage Story",
     "version": "2.0.15",
     "dependencies": {
-        "game": "1.21.0",
+        "game": "1.22.0",
         "portcullis": ""
     }
 }

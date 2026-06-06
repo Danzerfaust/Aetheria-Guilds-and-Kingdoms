@@ -212,7 +212,7 @@ Send many invites quickly:
 
 **Popup doesn't appear:**
 - Check you have controlserver privilege (Creative Mode)
-- Verify mod is loaded (`/modinfo SRGuildsAndKingdoms`)
+- Verify mod is loaded (`/modinfo SOAGuildsAndKingdoms`)
 - Check log for errors
 
 **Timer not updating:**
