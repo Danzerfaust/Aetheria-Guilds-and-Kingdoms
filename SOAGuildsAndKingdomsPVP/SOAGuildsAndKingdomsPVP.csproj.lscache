@@ -25,7 +25,7 @@ SolutionPath=*Undefined*
 TargetFrameworkIdentifier=.NETCoreApp
 TargetPath=<PATH>bin/Debug/Mods/soaguildsandkingdomspvp/SOAGuildsAndKingdomsPVP.dll
 TargetRefPath=<PATH>obj/Debug/ref/SOAGuildsAndKingdomsPVP.dll
-TemporaryDependencyNodeTargetIdentifier=net8.0
+TemporaryDependencyNodeTargetIdentifier=net10.0
 
 [commandLineArguments]
 /noconfig
@@ -36,7 +36,7 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
 /nostdlib+
 /errorreport:prompt
 /warn:8
-/define:TRACE;DEBUG;NET;NET8_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
+/define:TRACE;DEBUG;NET;NET10_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER
 /highentropyva+
 /nullable:enable
 /debug+
@@ -85,7 +85,7 @@ src/
 
 [metadataReferences]
 ../SOAGuildsAndKingdoms/SOAGuildsAndKingdoms/obj/Debug/ref/SOAGuildsAndKingdoms.dll
-<NUGET>/microsoft.netcore.app.ref/8.0.27/ref/net8.0/
+<NUGET>/microsoft.netcore.app.ref/8.0.27/ref/net10.0/
  Microsoft.CSharp.dll
  Microsoft.VisualBasic.Core.dll
  Microsoft.VisualBasic.dll
