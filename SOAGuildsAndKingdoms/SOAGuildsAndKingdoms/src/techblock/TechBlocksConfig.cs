@@ -228,25 +228,25 @@ namespace SOAGuildsAndKingdoms.src.techblock
                             new ResourceGroup
                             {
                                 Name = "Copper Bits or Nuggets",
-                                AmountRequired = 20,
+                                AmountRequired = 10,
                                 ResourcePatterns = new List<string> { "nugget-nativecopper", "metalbit-copper" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Any Raw Hides",
-                                AmountRequired = 5,
+                                AmountRequired = 2,
                                 ResourcePatterns = new List<string> { "hide-raw-*" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Any Clay",
-                                AmountRequired = 20,
+                                AmountRequired = 10,
                                 ResourcePatterns = new List<string> { "clay-*" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Firewood",
-                                AmountRequired = 40,
+                                AmountRequired = 20,
                                 ResourcePatterns = new List<string> { "firewood" }
                             }
                         },
@@ -265,31 +265,31 @@ namespace SOAGuildsAndKingdoms.src.techblock
                             new ResourceGroup
                             {
                                 Name = "Copper Ingots",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "ingot-copper" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Any Raw Hides",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "hide-raw-*" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Any Clay",
-                                AmountRequired = 20,
+                                AmountRequired = 10,
                                 ResourcePatterns = new List<string> { "clay-*" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Cupronickel Nails and Strips",
-                                AmountRequired = 20,
+                                AmountRequired = 10,
                                 ResourcePatterns = new List<string> { "metalnailsandstrips-cupronickel" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Firewood",
-                                AmountRequired = 64,
+                                AmountRequired = 32,
                                 ResourcePatterns = new List<string> { "firewood" }
                             }
                         },
@@ -308,43 +308,43 @@ namespace SOAGuildsAndKingdoms.src.techblock
                             new ResourceGroup
                             {
                                 Name = "Copper Ingots",
-                                AmountRequired = 15,
+                                AmountRequired = 7,
                                 ResourcePatterns = new List<string> { "ingot-copper" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Tin Ingots",
-                                AmountRequired = 15,
+                                AmountRequired = 7,
                                 ResourcePatterns = new List<string> { "ingot-tinbronze" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Leather",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "leather-normal-plain" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Any Clay",
-                                AmountRequired = 20,
+                                AmountRequired = 10,
                                 ResourcePatterns = new List<string> { "clay-*" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Cupronickel Nails and Strips",
-                                AmountRequired = 25,
+                                AmountRequired = 12,
                                 ResourcePatterns = new List<string> { "metalnailsandstrips-cupronickel" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Flax Twine",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "flaxtwine" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Charcoal",
-                                AmountRequired = 40,
+                                AmountRequired = 20,
                                 ResourcePatterns = new List<string> { "charcoal" }
                             }
                         },
@@ -363,55 +363,55 @@ namespace SOAGuildsAndKingdoms.src.techblock
                             new ResourceGroup
                             {
                                 Name = "Any Bronze Ingots",
-                                AmountRequired = 20,
+                                AmountRequired = 10,
                                 ResourcePatterns = new List<string> { "ingot-*bronze" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Leather",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "leather-normal-plain" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Fire Clay",
-                                AmountRequired = 20,
+                                AmountRequired = 10,
                                 ResourcePatterns = new List<string> { "clay-fire" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Cupronickel Nails and Strips",
-                                AmountRequired = 25,
+                                AmountRequired = 12,
                                 ResourcePatterns = new List<string> { "metalnailsandstrips-cupronickel" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Flax Twine",
-                                AmountRequired = 15,
+                                AmountRequired = 7,
                                 ResourcePatterns = new List<string> { "flaxtwine" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Feathers",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "feathers" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Gold Ingots",
-                                AmountRequired = 5,
+                                AmountRequired = 2,
                                 ResourcePatterns = new List<string> { "ingot-gold" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Silver Ingots",
-                                AmountRequired = 5,
+                                AmountRequired = 2,
                                 ResourcePatterns = new List<string> { "ingot-silver" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Charcoal",
-                                AmountRequired = 64,
+                                AmountRequired = 32,
                                 ResourcePatterns = new List<string> { "charcoal" }
                             }
                         },
@@ -430,61 +430,61 @@ namespace SOAGuildsAndKingdoms.src.techblock
                             new ResourceGroup
                             {
                                 Name = "Iron Ingots",
-                                AmountRequired = 25,
+                                AmountRequired = 12,
                                 ResourcePatterns = new List<string> { "ingot-iron" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Leather",
-                                AmountRequired = 15,
+                                AmountRequired = 7,
                                 ResourcePatterns = new List<string> { "leather-normal-plain" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Fire Clay",
-                                AmountRequired = 25,
+                                AmountRequired = 12,
                                 ResourcePatterns = new List<string> { "clay-fire" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Cupronickel Nails and Strips",
-                                AmountRequired = 25,
+                                AmountRequired = 12,
                                 ResourcePatterns = new List<string> { "metalnailsandstrips-cupronickel" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Flax Twine",
-                                AmountRequired = 20,
+                                AmountRequired = 10,
                                 ResourcePatterns = new List<string> { "flaxtwine" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Feathers",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "feathers" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Gold Ingots",
-                                AmountRequired = 5,
+                                AmountRequired = 2,
                                 ResourcePatterns = new List<string> { "ingot-gold" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Silver Ingots",
-                                AmountRequired = 5,
+                                AmountRequired = 2,
                                 ResourcePatterns = new List<string> { "ingot-silver" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Temporal Gears",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "gear-temporal" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Coke",
-                                AmountRequired = 40,
+                                AmountRequired = 20,
                                 ResourcePatterns = new List<string> { "coke" }
                             }
                         },
@@ -503,79 +503,79 @@ namespace SOAGuildsAndKingdoms.src.techblock
                             new ResourceGroup
                             {
                                 Name = "Iron Ingots",
-                                AmountRequired = 30,
+                                AmountRequired = 15,
                                 ResourcePatterns = new List<string> { "ingot-iron" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Meteoric Iron Ingots",
-                                AmountRequired = 5,
+                                AmountRequired = 2,
                                 ResourcePatterns = new List<string> { "ingot-meteoriciron" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Leather",
-                                AmountRequired = 20,
+                                AmountRequired = 10,
                                 ResourcePatterns = new List<string> { "leather-normal-plain" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Fire Clay",
-                                AmountRequired = 25,
+                                AmountRequired = 12,
                                 ResourcePatterns = new List<string> { "clay-fire" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Cupronickel Nails and Strips",
-                                AmountRequired = 25,
+                                AmountRequired = 12,
                                 ResourcePatterns = new List<string> { "metalnailsandstrips-cupronickel" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Flax Twine",
-                                AmountRequired = 25,
+                                AmountRequired = 12,
                                 ResourcePatterns = new List<string> { "flaxtwine" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Feathers",
-                                AmountRequired = 25,
+                                AmountRequired = 12,
                                 ResourcePatterns = new List<string> { "feathers" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Gold Ingots",
-                                AmountRequired = 5,
+                                AmountRequired = 2,
                                 ResourcePatterns = new List<string> { "ingot-gold" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Silver Ingots",
-                                AmountRequired = 5,
+                                AmountRequired = 2,
                                 ResourcePatterns = new List<string> { "ingot-silver" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Temporal Gears",
-                                AmountRequired = 15,
+                                AmountRequired = 7,
                                 ResourcePatterns = new List<string> { "gear-temporal" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Coke",
-                                AmountRequired = 64,
+                                AmountRequired = 32,
                                 ResourcePatterns = new List<string> { "coke" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Crushed Bauxite",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "crushed-bauxite" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Crushed Olivine",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "crushed-olivine" }
                             }
                         },
@@ -594,85 +594,85 @@ namespace SOAGuildsAndKingdoms.src.techblock
                             new ResourceGroup
                             {
                                 Name = "Steel Ingots",
-                                AmountRequired = 35,
+                                AmountRequired = 17,
                                 ResourcePatterns = new List<string> { "ingot-steel" }
                             },
                             new ResourceGroup
                             {
                                 Name = "T3 Refractory Bricks",
-                                AmountRequired = 15,
+                                AmountRequired = 7,
                                 ResourcePatterns = new List<string> { "refractorybrick-fired-tier3" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Sturdy Leather",
-                                AmountRequired = 20,
-                                ResourcePatterns = new List<string> { "leather-normal-plain" }
+                                AmountRequired = 10,
+                                ResourcePatterns = new List<string> { "leather-sturdy-plain" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Cupronickel Nails and Strips",
-                                AmountRequired = 35,
+                                AmountRequired = 17,
                                 ResourcePatterns = new List<string> { "metalnailsandstrips-cupronickel" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Flax Twine",
-                                AmountRequired = 35,
+                                AmountRequired = 17,
                                 ResourcePatterns = new List<string> { "flaxtwine" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Feathers",
-                                AmountRequired = 35,
+                                AmountRequired = 17,
                                 ResourcePatterns = new List<string> { "feathers" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Gold Ingots",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "ingot-gold" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Silver Ingots",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "ingot-silver" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Temporal Gears",
-                                AmountRequired = 20,
+                                AmountRequired = 10,
                                 ResourcePatterns = new List<string> { "gear-temporal" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Coke",
-                                AmountRequired = 96,
+                                AmountRequired = 48,
                                 ResourcePatterns = new List<string> { "coke" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Crushed Bauxite",
-                                AmountRequired = 15,
+                                AmountRequired = 7,
                                 ResourcePatterns = new List<string> { "crushed-bauxite" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Crushed Olivine",
-                                AmountRequired = 15,
+                                AmountRequired = 7,
                                 ResourcePatterns = new List<string> { "crushed-olivine" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Crushed Ilmenite",
-                                AmountRequired = 15,
+                                AmountRequired = 7,
                                 ResourcePatterns = new List<string> { "crushed-ilmenite" }
                             },
                             new ResourceGroup
                             {
                                 Name = "Platinum Ingots",
-                                AmountRequired = 10,
+                                AmountRequired = 5,
                                 ResourcePatterns = new List<string> { "ingot-platinum" }
                             }
 

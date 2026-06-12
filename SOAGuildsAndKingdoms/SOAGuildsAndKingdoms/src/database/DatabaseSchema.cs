@@ -112,6 +112,7 @@ namespace SOAGuildsAndKingdoms.src.database
                         role TEXT NOT NULL,
                         joined_at INTEGER NOT NULL,
                         last_seen INTEGER NOT NULL,
+                        points_contribution INTEGER NOT NULL DEFAULT 0,
                         PRIMARY KEY (guild_id, player_uid),
                         FOREIGN KEY (guild_id) REFERENCES guilds(id) ON DELETE CASCADE
                     );", transaction);
