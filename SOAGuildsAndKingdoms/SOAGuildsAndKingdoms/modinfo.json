@@ -8,7 +8,7 @@
     "name": "SOAGuildsAndKingdoms",
     "authors": [ "ShakeySnake", "Roscati", "snoopyfan13", "Danzerfaust" ],
     "description": "A Guild and Kingdoms mod for Vintage Story",
-    "version": "3.0.0",
+    "version": "3.0.2",
     "dependencies": {
         "game": "1.22.0",
         "portcullis": ""
